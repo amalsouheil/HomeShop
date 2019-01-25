@@ -1,4 +1,4 @@
-package homeShop;
+package com.ocr.amal;
 
 import static org.junit.jupiter.api.Assertions.*;
 
