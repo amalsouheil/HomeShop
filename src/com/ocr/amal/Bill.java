@@ -2,18 +2,23 @@ package com.ocr.amal;
 
 
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class Bill {
 
-    Cutomer cutomer ;
-    Map<Product,Integer> products;
+   private Customer customer ;
+   private Map<Product,Integer> products = new HashMap<Product, Integer>();
+   private Delivery delivery;
 
-    public Cutomer getCutomer() {
-        return cutomer;
-    }
 
-    public Map<Product, Integer> getProducts() {
+   public Customer getCutomer()
+   {
+        return customer;
+   }
+
+    public Map<Product, Integer> getProducts()
+    {
         return products;
     }
 
@@ -28,7 +33,11 @@ public class Bill {
              this.products.put(product,quantity);
     }
 
-    public Bill(Cutomer cutomer) {
-        this.cutomer = cutomer;
+    public Bill(Customer cutomer)
+
+    {
+        this.customer = cutomer;
     }
+
+
 }
