@@ -5,4 +5,12 @@ public class DirectDelivrey implements Delivery  {
     public double getPrice() {
         return 4.99 ;
     }
+    public String getInfo(){
+
+        return "Livraison a domicile 4.99€";
+
+    }
+
+
+
 }

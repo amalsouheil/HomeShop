@@ -6,6 +6,7 @@ public class Customer {
     String fullname;
 
     public String getAdress() {
+
         return adress;
     }
 

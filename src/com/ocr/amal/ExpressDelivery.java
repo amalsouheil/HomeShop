@@ -1,6 +1,6 @@
 package com.ocr.amal;
 
-public class ExpressDelivery implements Delivery  {
+public class ExpressDelivery implements Delivery {
 
 
     public String city;
@@ -16,4 +16,15 @@ public class ExpressDelivery implements Delivery  {
         else
             return 9.99;
     }
+
+    @Override
+
+    public String getInfo(){
+
+        return "Livraison a domicile express"+getPrice();
+
+
+
+    }
+
 }

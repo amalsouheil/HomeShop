@@ -2,7 +2,7 @@ package com.ocr.amal;
 
 
 
-public abstract class Product {
+public class Product {
 
     String name;
     String description;
