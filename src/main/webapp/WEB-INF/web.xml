@@ -9,6 +9,18 @@
 
     <servlet-mapping>
         <servlet-name>HelloWorld</servlet-name>
-        <url-pattern>/test</url-pattern>
+        <url-pattern>/helloworld</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>Bill</servlet-name>
+        <servlet-class>com.ocr.amal.web.BillServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Bill</servlet-name>
+        <url-pattern>/bill</url-pattern>
     </servlet-mapping>
 </web-app>
